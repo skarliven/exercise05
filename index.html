@@ -1,34 +1,108 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <!-- Character Set -->
-		<meta charset="utf-8">
-    <!-- Creator of the Website -->
-		<meta name="author" content="Skarli Pena">
-<!-- Description of the Website -->
-		<meta name="description" content="Change name here">
-<!-- viewport -->
-		<meta name="viewport" content="width=device-width, initial-scale=1">
+<head>
+  <!-- title -->
+  <title></title>
+  <!-- Character Set -->
+  <meta charset="utf-8">
+  <!-- Creator of the Website -->
+  <meta name="author" content="Skarli Pena">
+  <!-- Description of the Website -->
+  <meta name="description" content="Change name here">
+  <!-- viewport -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-<!-- title -->
-		<title></title>
-<!-- Favorite icon -->
-		<link rel="shortcut icon" href="favicon.ico">
-<!-- Font Awesome - for Icons -->
-		<script src="https://use.fontawesome.com/9a77ea3aef.js"></script>
-<!-- Google Fonts -->
-<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
-<link rel="stylesheet" href="css/bootstrap.min.css">
-<!-- Custom CSS -->
-		<link rel="stylesheet" href="css/main.css">
-  </head>
-  <body>
+  <!-- Favorite icon -->
+  <link rel="shortcut icon" href="favicon.ico">
+  <!-- Font Awesome - for Icons -->
+  <script src="https://use.fontawesome.com/9a77ea3aef.js"></script>
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+  <!-- Bootstrap 4 -->
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+  <nav class="navbar navbar-expand-md navbar-light">
+    <div class="container">
+      <a class="navbar-brand" href="#">Navbar</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
 
-    
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Link</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Dropdown
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#">Action</a>
+              <a class="dropdown-item" href="#">Another action</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">Something else here</a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled" href="#">Disabled</a>
+          </li>
+        </ul>
+        <form class="form-inline my-2 my-lg-0">
+          <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+        </form>
+      </div>
+  <!-- end of container -->
+    </div>
+</nav>
+<!-- jumbotron -->
+<div class="jumbotron text-center text-md-right text-white">
+  <div class="container px-md-5">
+    <h1 class="display-4">Bootstrap!</h1>
+    <p class="lead">Build responsive, mobile-first projects on the web with the world's most popular front-end component library..</p>
+    <hr class="my-4">
+    <p>Bootstrap is an open source toolkit for developing with HTML, CSS, and JS.</p>
+    <p class="lead">
+      <a class="btn btn-primary btn-lg" href="https://getbootstrap.com/" role="button">Learn more</a>
+    </p>
+  </div>
+</div>
 
+<!-- container -->
+<div class="container">
+  <div class="row text-center pb-5">
+    <div class="col-10 col-sm-8 col-md-4 mx-auto mx-md-0 ml-md-auto p-3">
+      <h2>Canva</h2>
+      <img class="img-fluid" src="img/canva.png">
+      <a href="https://www.canva.com/"><button class="btn btn-success" type="submit">Learn More</button></a>
+    </div>
+    <div class="col-10 col-sm-8 col-md-4 mx-auto mx-md-0 ml-md-auto p-3">
+      <h2>Music With Skarli</h2>
+      <img class="img-fluid" src="img/skarli.png">
+      <a href="https://www.musicwithskarli.com/"><button class="btn btn-primary" type="submit">Learn More</button></a>
+    </div>
+    <div class="col-10 col-sm-8 col-md-4 mx-auto mx-md-0 ml-md-auto p-3">
+      <h2>Cartoon Saloon</h2>
+      <img class="img-fluid" src="img/cartoonsaloon.jpg">
+      <a href="http://www.cartoonsaloon.ie/"><button class="my-5 btn btn-danger" type="submit">Learn More</button></a>
+    </div>
+  </div>
+</div>
+<!-- Scripts -->
+  <!-- Bootstrap -->
+  <!-- jQuery -->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <!-- popper -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <!-- Bootstrap -->
     <script src="js/bootstrap.min.js"></script>
 
-  </body>
+</body>
 </html>
